@@ -28,15 +28,12 @@ MAPE (Erro Percentual Médio Absoluto): Calcula a média da porcentagem de erro 
 WAPE (Erro Percentual Absoluto Ponderado): Similar ao MAPE, mas leva em consideração a importância de cada item no estoque. Isso significa que itens de maior valor ou importância terão um impacto maior na métrica. Um WAPE menor é desejável, pois indica que o modelo está prevendo com mais precisão para os itens mais críticos, o que é essencial para uma gestão eficiente do estoque.
 RMSE (Raiz do Erro Quadrático Médio): Mede a diferença média entre os valores previstos e os valores reais, dando mais peso a grandes erros. Um RMSE menor é melhor, pois indica que as previsões estão, em média, próximas dos valores reais. No contexto de estoque, isso ajuda a minimizar grandes discrepâncias que podem levar a super ou subestimativas críticas.
 MASE (Erro Escalado Médio Absoluto): Compara o erro da previsão com um modelo simples. Um valor de MASE menor que 1 indica que o modelo está fazendo previsões mais precisas do que simplesmente usar a média histórica. Para controle de estoque, um MASE menor que 1 é um bom sinal de que o modelo está efetivamente melhorando a previsão em comparação com métodos mais básicos.
+
+
+
+
+
 Recursos Adicionais
-
-
-
-
-
-
-
-
 
 # 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
 
